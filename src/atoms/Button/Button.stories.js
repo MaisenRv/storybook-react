@@ -12,14 +12,14 @@ export default {
 
 export const BackgroundColor = {
   args: {
-    label: "Button",
+    children: "Button",
     backgroundColor: "#00ff00",
   },
 };
 
 export const Color = {
   args: {
-    label: "Button",
+    children: "Button",
     color: "#ff0000",
   },
 };

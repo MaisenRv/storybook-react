@@ -4,12 +4,13 @@ import "./button.css";
 /**
  * Este es un boton normal
  */
-const Button = ({label, backgroundColor, color})=>{
+const Button = ({children, backgroundColor, color})=>{
     return(
         <button
             className="button"
             style={{backgroundColor: backgroundColor, color: color}}
-        >{label}
+        >
+            {children}
         </button>
     )
 }
@@ -18,7 +19,7 @@ Button.propTypes = {
     /**
      * Texto del boton
      */
-    label: PropTypes.string.isRequired,
+    children: PropTypes.node.isRequired,
     /**
      * Color del fondo
      */
