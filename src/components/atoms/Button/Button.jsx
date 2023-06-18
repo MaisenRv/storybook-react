@@ -31,6 +31,7 @@ Button.propTypes = {
 }
 
 Button.defaultProps ={
+    children: "Button",
     backgroundColor: null,
     color: null
 }

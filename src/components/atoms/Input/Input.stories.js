@@ -1,47 +1,39 @@
 import Input from "./Input";
 
 export default {
-    title: "atoms/Input",
-    component: Input,
-    tags: ["autodocs"],
-    argTypes:{
-        type: { control: "text" },
-        backgroundColor: { control: "color" },
-        value: {control : "text"},
-        placeHolder: {control : "text"}
-    }
-}
+  title: "atoms/Input",
+  component: Input,
+  tags: ["autodocs"],
+  argTypes: {
+    backgroundColor: { control: "color" },
+  },
+};
 
-export const type ={
-    args:{
-        type:"text",
-        value: "Example value",
-        onChange: null
-    }
-}
+export const type = {
+  args: {
+    type: "text",
+  },
+};
 
 export const Value = {
-    args:{
-        type:"text",
-        value: "Example value",
-        onChange: null
-    }
-}
+  args: {
+    type: "text",
+    value: "Example value",
+  },
+};
 
 export const BackgroundColor = {
-    args:{
-        type:"text",
-        value: "Example value",
-        backgroundColor: "#0000ff",
-        onChange: null
-    }
-}
+  args: {
+    type: "text",
+    value: "Example value",
+    backgroundColor: "#0000ff",
+  },
+};
 
 export const PlaceHolder = {
-    args:{
-        type:"text",
-        value:"",
-        placeHolder: "example placeholder",
-        onChange: null
-    }
-}
+  args: {
+    type: "text",
+    value: "",
+    placeHolder: "example placeholder",
+  },
+};

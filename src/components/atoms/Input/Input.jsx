@@ -41,9 +41,7 @@ Input.propTypes ={
 Input.defaultProps = {
     type: "text",
     value: "example",
-    backgroundColor: null,
-    placeHolder: "placeholder",
-    onChange: null
+    onChange: undefined
 }
 
 export default Input
